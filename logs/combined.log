@@ -685,3 +685,37 @@
 {"level":"info","message":"User lookup result - Found: 1 users","service":"tutor-connect-backend","timestamp":"2025-11-29T20:02:19.122Z"}
 {"level":"info","message":"Authentication successful - User: nikki9889@gmail.com, Role: student, ID: 4ae8ac38-365f-4fef-94d6-f57ce9689eea","service":"tutor-connect-backend","timestamp":"2025-11-29T20:02:19.123Z"}
 {"level":"info","message":"127.0.0.1 - - [29/Nov/2025:20:02:19 +0000] \"GET /api/tasks HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"tutor-connect-backend","timestamp":"2025-11-29T20:02:19.167Z"}
+{"level":"info","message":"Email service initialized successfully","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.621Z"}
+{"level":"info","message":"Starting TutorConnect server...","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.715Z"}
+{"level":"info","message":"Environment: development","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.716Z"}
+{"level":"info","message":"Target port: 5000","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.716Z"}
+{"level":"info","message":"Server configuration:","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.717Z"}
+{"level":"info","message":"   • Frontend URL: http://localhost:3000","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.717Z"}
+{"level":"info","message":"   • Rate limit: 1000 requests per 15 minutes","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.718Z"}
+{"level":"info","message":"   • Body size limit: 10MB","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.718Z"}
+{"level":"info","message":"   • CORS enabled: Yes","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.718Z"}
+{"level":"info","message":"   • Helmet security: Yes","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.719Z"}
+{"level":"info","message":"Connecting to database...","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.720Z"}
+{"level":"info","message":"Initializing database connection...","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.720Z"}
+{"level":"info","message":"Using DATABASE_URL connection string","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.720Z"}
+{"level":"info","message":"Environment: development","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.721Z"}
+{"level":"info","message":"SSL enabled: Yes","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.721Z"}
+{"level":"info","message":"Testing database connection...","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:44.721Z"}
+{"level":"info","message":"New database client connected","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.766Z"}
+{"level":"info","message":"Successfully connected to PostgreSQL database","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.833Z"}
+{"level":"info","message":"Database: neondb","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.833Z"}
+{"level":"info","message":"Connected as: neondb_owner","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.834Z"}
+{"level":"info","message":"PostgreSQL version: PostgreSQL 17.6","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.834Z"}
+{"level":"info","message":"Database connectivity test passed","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.877Z"}
+{"level":"info","message":"Database connection pool initialized successfully","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.878Z"}
+{"level":"info","message":"Database connection established","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.878Z"}
+{"level":"info","message":"Starting HTTP server...","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.879Z"}
+{"level":"info","message":"Socket.io initialized","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.932Z"}
+{"level":"info","message":"Server started successfully!","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.933Z"}
+{"level":"info","message":"Server running on http://0.0.0.0:5000","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.933Z"}
+{"level":"info","message":"Local access: http://localhost:5000","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.933Z"}
+{"level":"info","message":"Health check: http://localhost:5000/health","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.933Z"}
+{"level":"info","message":"API endpoints: http://localhost:5000/api/","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.933Z"}
+{"level":"info","message":"Server is listening on 0.0.0.0:5000","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.934Z"}
+{"level":"info","message":"Ready to accept connections","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:45.934Z"}
+{"level":"info","message":"SIGINT received. Initiating graceful shutdown...","service":"tutor-connect-backend","timestamp":"2025-11-29T21:17:52.546Z"}
